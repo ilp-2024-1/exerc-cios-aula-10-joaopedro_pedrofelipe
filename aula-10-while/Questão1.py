@@ -10,5 +10,5 @@ if(botao == 's'):
     while (num < 100):
         num = num + 1
         print(num)
-print('fim do prigrama')
+print('fim do programa')
 
