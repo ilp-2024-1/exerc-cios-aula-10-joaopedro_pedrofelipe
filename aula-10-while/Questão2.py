@@ -4,3 +4,5 @@
 #usuário deverá ser informado no início do programa o que o programa faz e qual a
 #condição para encerramento do programa.
 
+print('Digite valores numericos para somar')
+num1= float(input('Digite o primeiro valor: '))
