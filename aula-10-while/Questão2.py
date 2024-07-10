@@ -4,5 +4,15 @@
 #usuário deverá ser informado no início do programa o que o programa faz e qual a
 #condição para encerramento do programa.
 
-print('Digite valores numericos para somar')
-num1= float(input('Digite o primeiro valor: '))
+soma = 0
+print('Faça a soma, quamdo quiser saber o resultado digite 0')
+num = float(input('Digite o numero: '))
+
+while(num != 0):
+    soma = soma + num
+    num = float(input('Digite o numero: '))
+
+print('Esse é o resultado: ', soma)
+
+print('Fim do programa')
+
