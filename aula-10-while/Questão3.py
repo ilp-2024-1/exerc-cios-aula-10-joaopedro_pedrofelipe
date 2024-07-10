@@ -4,9 +4,12 @@
 #senha, o programa deverá encerrar exibindo uma mensagem encerramento e informar
 #que o usuário acertou a senha.
 
+csenha = input('Crie uma senha: ')
+print('Senha criada')
+
 senha = input('Digite a senha: ')
 
-while(senha != '123456'):
+while(senha != csenha):
     senha = input('Digite a senha: ')
 
 print('Você acertou a senha. Fim do programa.')
